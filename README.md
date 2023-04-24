@@ -9,6 +9,8 @@ Click VScode and copy the connection string
 
 After, go into the "config.js" file and replace the connectionURL with the copied connection string. Change the password property to the password for the user you created. Save the file.
 
+You can manage users or create a new user if you forget username and/or password by clicking the Database Access tab on the left. You can then use this new username and password combo in the config.js file
+
 
 
 open terminal/cmdline in the main directory and run 
