@@ -14,7 +14,7 @@ open terminal/cmdline in the main directory and run
 Then go into the "front-end" folder and run
 "npm install" to install all the dependencies 
 "npm start" to run the reactJS app 
-![Screen Shot 2023-04-24 at 1 41 32 PM](https://user-images.githubusercontent.com/57374016/234119146-d0bb22a7-8297-4403-9d66-0d0edaffd65d.png)
+
 
 
 
@@ -45,6 +45,8 @@ Whenever the "save changes" button is clicked validation will occur before savin
 And the email must be in the form of username@anemailprovider.something
 
 All fields must also be filled, none can be blank
+
+![Screen Shot 2023-04-24 at 5 20 34 PM](https://user-images.githubusercontent.com/57374016/234119879-dcbe5ccc-af77-4c9f-9918-9ca5b65b7d96.png)
 
 
 
