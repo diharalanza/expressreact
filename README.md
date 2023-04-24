@@ -34,8 +34,9 @@ Front-end:
 How it works:
 CRUD:
 When the site is first started, a get request is called to get all the contact objects using the express server (endpoint is "/") and the ContactTable is populated with them.
-If add or update, for any contact item, is clicked the ContactForm is shown and the data submitted in the form will go to the post method with endpoint "/addContact" if add was clicked which creates a new contact object and saves in the db or put method with endpoint "/updateContact/:contactID" else which will update the contact object with the matching contactID with this data.
-If the delete button is clicked for any of the contact items, a delete request will be sent with the id of the item to the express server with endpoint /deleteContact/:contactID which will delete the contact object with this given id
+If add or update, for any contact item, is clicked the ContactForm is shown and the data submitted in the form will go to the post method with endpoint "/addContact" if add was clicked and will create a new contact object and saves in the db. 
+Else if update was clicked, data will go to put method with endpoint "/updateContact/:contactID" which will update the contact object with the matching contactID with this data.
+If the delete button is clicked for any of the contact items, a delete request will be sent with the id of the item to the express server with endpoint /deleteContact/:contactID which will delete the contact object with this given id.
 
 
 Validation:
