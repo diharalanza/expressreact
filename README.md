@@ -40,11 +40,11 @@ If the delete button is clicked for any of the contact items, a delete request w
 
 Validation:
 Whenever the "save changes" button is clicked validation will occur before saving. I have made it so the first and last name can only be letters, the phone can can only be in one of the formats:
-123-456-7890
-(123) 456-7890
-123 456 7890
-123.456.7890
-+91 (123) 456-7890
+123-456-7890, 
+(123) 456-7890, 
+123 456 7890, 
+123.456.7890, 
++91 (123) 456-7890 
 
 And the email must be in the form of username@anemailprovider.something
 
