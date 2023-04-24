@@ -14,6 +14,8 @@ open terminal/cmdline in the main directory and run
 Then go into the "front-end" folder and run
 "npm install" to install all the dependencies 
 "npm start" to run the reactJS app 
+![Screen Shot 2023-04-24 at 1 41 32 PM](https://user-images.githubusercontent.com/57374016/234119146-d0bb22a7-8297-4403-9d66-0d0edaffd65d.png)
+
 
 
 Tech stack:
