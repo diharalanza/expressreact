@@ -2,9 +2,12 @@ HOW TO RUN:
 
 After downloading the file, 
 
-Create a mongoDB atlas account, this will store the database
+Create a mongoDB atlas account, this will store the database. Remember the username and password you create.
+Click Database on the left, and click connect for the cluster created.
+Click VScode and copy the connection string
 
-After registering and creating a database, go into the "config.js" file and replace the properties to match your configuration.
+After, go into the "config.js" file and replace the connectionURL with the copied connection string. Change the password property to the password for the user you created. Save the file.
+
 
 
 open terminal/cmdline in the main directory and run 
@@ -14,8 +17,6 @@ open terminal/cmdline in the main directory and run
 Then go into the "front-end" folder and run
 "npm install" to install all the dependencies 
 "npm start" to run the reactJS app 
-
-
 
 
 Tech stack:
