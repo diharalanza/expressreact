@@ -14,11 +14,11 @@ You can manage users or create a new user if you forget username and/or password
 
 
 open terminal/cmdline in the main directory and run 
-"npm install" to install all the dependencies 
+"npm install" to install all the dependencies, 
 "node server.js" to run the server
 
 Then go into the "front-end/WutDevTest-main" folder and run
-"npm install" to install all the dependencies 
+"npm install" to install all the dependencies, 
 "npm start" to run the reactJS app 
 
 
